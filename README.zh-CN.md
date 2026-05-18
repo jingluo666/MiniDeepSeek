@@ -1,12 +1,6 @@
-# MiniDeepSeek
-
 ![MiniDeepSeek Logo](./MiniDeepSeek_logo.png)
 
-本仓库包含一个面向大语言模型（LLM）技术学习与实践的轻量级项目 **MiniDeepSeek**。  
-项目以学习和复现 **DeepSeek-V4** 的核心技术思想为主要目标，参考了 DeepSeek-V4 技术报告，并借鉴开源学习项目 [miniMind](https://github.com/jingyaogong/minimind/tree/master) 的部分实现思路进行开发。
-
-项目整体采用 **vibe coding** 的方式进行快速搭建、修改与迭代，强调“边实现、边理解、边实验”的学习过程。  
-本项目并不追求完整复现工业级大模型系统，而是希望通过尽可能清晰、简洁、可运行的代码结构，降低大语言模型的学习门槛。
+本仓库包含一个面向大语言模型（LLM）技术学习与实践的轻量级项目 **MiniDeepSeek**。项目以学习和复现 **DeepSeek-V4** 的核心技术思想为主要目标，参考了 DeepSeek-V4 技术报告，并借鉴开源学习项目 [miniMind](https://github.com/jingyaogong/minimind/tree/master) 的部分实现思路进行开发。项目整体采用 **vibe coding** 的方式进行快速搭建、修改与迭代，强调“边实现、边理解、边实验”的学习过程。本项目并不追求完整复现工业级大模型系统，而是希望通过尽可能清晰、简洁、可运行的代码结构，降低大语言模型的学习门槛。
 
 我们希望学习者能够：
 
