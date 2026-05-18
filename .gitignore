@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+dataset/
+outputs/
+*.pt
+*.bin
+*.jsonl
+
+minideepseek/tokenizer.json
+minideepseek/tokenizer_config.json

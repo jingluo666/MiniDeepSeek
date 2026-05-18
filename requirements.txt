@@ -1,0 +1,35 @@
+# MiniDeepseek requirements
+# MiniDeepseek 项目依赖
+#
+# Design principle / 设计原则：
+# 1. Keep the current dense baseline runnable with a very small dependency set.
+#    让当前 Dense 基线在尽量小的依赖集合下即可运行。
+# 2. Pre-install a few lightweight libraries that are likely to be reused later.
+#    预装少量后续高概率复用的轻量库，减少反复补环境的次数。
+# 3. Avoid large framework stacks unless they are truly necessary.
+#    除非确实必要，否则尽量不引入过重的框架栈。
+
+# Core runtime / 当前脚本核心依赖
+torch>=2.2.0
+
+# Common utilities / 常用工程辅助库
+tqdm>=4.66.0
+tensorboard>=2.16.0
+safetensors>=0.4.3
+
+# Tokenizer and text processing / 分词与文本处理
+tokenizers>=0.19.1
+sentencepiece>=0.2.0
+regex>=2024.5.15
+
+# Numeric helpers / 数值与科学计算辅助
+numpy>=1.26.0
+
+# Optional but recommended for later stages
+# These are not strictly required by the current scripts,
+# but are often useful once we move to better tokenizers,
+# evaluation scripts, data tooling, or checkpoint conversion.
+# 这些库不是当前脚本的硬依赖，但后续做 tokenizer、评测、数据处理、
+# 权重转换时通常会用到，提前装好会更省事。
+packaging>=24.0
+rich>=13.7.1
