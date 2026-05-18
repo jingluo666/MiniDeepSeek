@@ -2,11 +2,7 @@
 
 ![MiniDeepSeek Logo](./MiniDeepSeek_logo.png)
 
-This repository contains **MiniDeepSeek**, a lightweight project for learning and hands-on practice with large language models (LLMs).  
-Its primary goal is to study and reproduce the core technical ideas of **DeepSeek-V4**. The implementation is informed by the DeepSeek-V4 technical report and also draws on selected design ideas from the open-source learning project [miniMind](https://github.com/jingyaogong/minimind/tree/master).
-
-The project has been built and iterated in a **vibe coding** style, emphasizing a learning process centered on implementation, understanding, and experimentation.  
-Rather than aiming for a full industrial-grade reproduction of a large-scale model system, this project focuses on keeping the codebase as clear, compact, and runnable as possible, so that the barrier to learning LLM internals remains low.
+This repository contains **MiniDeepSeek**, a lightweight project for learning and hands-on practice with large language models (LLMs). Its primary goal is to study and reproduce the core technical ideas of **DeepSeek-V4**. The implementation is informed by the DeepSeek-V4 technical report and also draws on selected design ideas from the open-source learning project [miniMind](https://github.com/jingyaogong/minimind/tree/master). The project has been built and iterated in a **vibe coding** style, emphasizing a learning process centered on implementation, understanding, and experimentation. Rather than aiming for a full industrial-grade reproduction of a large-scale model system, this project focuses on keeping the codebase as clear, compact, and runnable as possible, so that the barrier to learning LLM internals remains low.
 
 We hope learners will be able to:
 
